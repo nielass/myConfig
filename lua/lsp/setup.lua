@@ -4,6 +4,7 @@ local servers = {
   pyright = require('lsp/server/pyright'),
   clangd = require('lsp/server/clangd'),
   sumneko_lua = require('lsp/server/lua'),
+  cmake = require('lsp/server/cmake_lsp'),
 }
 
 for name, config in pairs(servers) do

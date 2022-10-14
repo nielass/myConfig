@@ -19,7 +19,7 @@ return require('packer').startup(function()
   requires = {
     'kyazdani42/nvim-web-devicons', -- optional, for file icons
   },
-  tag = 'nightly' -- optional, updated every week. (see issue #1193)
+  -- tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
   -- better buffer line
   use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}

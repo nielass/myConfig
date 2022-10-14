@@ -13,7 +13,7 @@ vim.wo.relativenumber = false
 vim.wo.signcolumn = "yes"
 
 -- hl line
-vim.wo.cursorline = false
+vim.wo.cursorline = true
 
 
 -- rightside reference line
